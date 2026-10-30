@@ -6,8 +6,8 @@ function funcaoCadastrarCliente() {
 
     //Verifica se os campos estão vazios, "!" Indica que está vazio
     // Mostra a mensagem de alerta no navegador.
-    if (!nome || !email || !telefone)
-        alert('Por favor, preencha os campos.'){
+    if (!nome || !email || !telefone) {
+        alert('Por favor, preencha os campos.')
         return
     }
 
@@ -26,6 +26,6 @@ function funcaoCadastrarCliente() {
     //Mensagem do navegador confirmando salvamento.
     alert('Cliente cadastrado com sucesso!')
 
-    // Limpa o formulario 
+    // Limpa o formulario
     document.getElementById('formulario-cadastro').reset()
 }
